@@ -33,7 +33,7 @@ OPENROUTER_MODEL = os.environ.get("O_R_MODEL")
 
 # Groq Configuration
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
-GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.1-8b-instant")
+GROQ_MODEL = os.environ.get("GROQ_MODEL")#, "llama-3.1-8b-instant")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
